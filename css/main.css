@@ -157,7 +157,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;/* estoy diciendo que se divida en 2 fracciones */
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     background-color:  #f2f2f2;
     border-top: 1px solid #dadce0;
 }
