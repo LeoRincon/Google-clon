@@ -146,3 +146,39 @@ main .main-bottons button:hover {
     color: #222;
     background-color: #f8f8f8; 
 }
+
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0; /* con el position absolute y el bottom 0 me aseguro que mi footer siempre este al final */
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* estoy diciendo que se divida en 2 fracciones */
+    align-items: center;
+    font-size: 0.9rem;
+    background-color:  #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+    margin-right: 15px;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
